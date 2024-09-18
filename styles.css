@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #00796b;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #004d40;
+}
+.question {
+    margin: 20px 0;
+}
+button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover {
+    background-color: #00796b;
+}
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}

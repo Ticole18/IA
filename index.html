@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="PT-Br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Você sobreviveria a um apocalipse zumbi?</title>
+    <title>Quiz Ben 10</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="caixa-principal">
-        <h1>Você sobreviveria a um apocalipse zumbi?</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado"></div>
-            <p class="texto-resultado"></p>
-    </div>
+
+    <h1>Qual Alienígena de Ben 10 Você Seria?</h1>
+    <div id="quiz"></div>
+    <button id="nextBtn" onclick="nextQuestion()">Próxima Pergunta</button>
+    <button id="resultBtn" onclick="showResult()" style="display:none;">Ver Resultado</button>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
 </body>
-<script src="script.js"></script>
 </html>
